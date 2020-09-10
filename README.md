@@ -6,16 +6,16 @@ First You have to Install Firebase Dependency by typing this command
 ### `npm i firebase`
 
 
-### Connect Your Own Firebase API to this project.
+### `Connect Your Own Firebase API to this project.`
 
 Go to Firebase and Get your API
 
 Create a Js file named -- fireb.js
 
 and Put Your API or Paste like below!
-## import firebase from "firebase";
+### `import firebase from "firebase";`
 
- var firebaseConfig = {
+ `var firebaseConfig = {
    apiKey: "######################",
   authDomain: "#######################",
   databaseURL: "########################",
@@ -26,9 +26,7 @@ and Put Your API or Paste like below!
   measurementId: "###########",
 };
 const fireb = firebase.initializeApp(firebaseConfig);
-
-
-## export default fireb;
+ export default fireb;`
 
 
 ### `npm start`
