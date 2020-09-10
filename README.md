@@ -15,18 +15,10 @@ Create a Js file named -- fireb.js
 and Put Your API or Paste like below!
 ### `import firebase from "firebase";`
 
- `var firebaseConfig = {
-   apiKey: "######################",
-  authDomain: "#######################",
-  databaseURL: "########################",
-  projectId: "#################",
-  storageBucket: "#######################",
-  messagingSenderId: "###################",
-  appId: "############################",
-  measurementId: "###########",
-};
+###`var firebaseConfig = {<PASTE Your API Object>};'
+
 const fireb = firebase.initializeApp(firebaseConfig);
- export default fireb;`
+ export default fireb;
 
 
 ### `npm start`
