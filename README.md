@@ -15,7 +15,7 @@ Create a Js file named -- fireb.js
 and Put Your API or Paste like below!
 ### `import firebase from "firebase";`
 
-###`var firebaseConfig = {<PASTE Your API Object>};'
+###`var firebaseConfig = {PASTE Your API Object};'
 
 const fireb = firebase.initializeApp(firebaseConfig);
  export default fireb;
