@@ -5,21 +5,18 @@ First You have to Install Firebase Dependency by typing this command
 
 ### `npm i firebase`
 
-
 ### `Connect Your Own Firebase API to this project.`
 
-Go to Firebase and Get your API
+-Go to Firebase and Get your API
 
-Create a Js file named -- fireb.js
+-Create a Js file named -- fireb.js and Put Your API or Paste like below!
 
-and Put Your API or Paste like below!
 ### `import firebase from "firebase";`
 
-###`var firebaseConfig = {PASTE Your API Object};'
+-**var firebaseConfig = {PASTE Your API Object};**'
 
-const fireb = firebase.initializeApp(firebaseConfig);
+-const fireb = firebase.initializeApp(firebaseConfig);
  export default fireb;
-
 
 ### `npm start`
 
